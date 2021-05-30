@@ -1,0 +1,169 @@
+body{
+    width: 100% !important;
+    font-family: Tahoma, Verdana, sans-serif ;
+}
+.nav-link {
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#opacitynav{
+    opacity: .8;
+}
+
+.nav-link:hover {
+    color: black !important;
+    background-color: #FFEB3B;
+    
+}
+
+.btn-warning:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px black;
+}
+
+.gallery {
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 0px;
+    margin: 30px;
+    margin-top: 30px;
+    text-align: center;
+    border: 20px double black;
+
+}
+
+.box a{
+    text-decoration: none;font-weight: bold; text-align: center; padding: 5px;
+    color: black;
+}
+.box>img {
+    width: 100%;
+}
+
+.box:hover {
+    /* -webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-o-transform: rotate(-7deg); */
+    transition: all .2s;
+    box-shadow: 2px 2px 20px rgb(65, 65, 18);
+   
+}
+
+.box>img {
+    width: 100%;
+    height: auto;
+}
+
+.cont {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.cont h1 {
+    padding: 20px;
+}
+
+
+
+.card{
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.card:hover{
+    color: black;
+    box-shadow: 2px 2px 15px black;
+  
+    transition: all .4s;
+  
+    opacity: .8;
+   
+}
+
+footer{
+    height: 80px;
+    background-color: rgb(212, 212, 212);
+    
+}
+footer div a{
+    margin: 0px;
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+footer div a:hover{
+    background-color: black;
+    color: #FFEB3B;
+}
+
+footer > div{
+    text-align: center;
+}
+
+.readmore{
+    color: black; font-weight: bolder;
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 25px;
+}
+.readmore:hover{
+    transition: all .2s;
+    background-color: #FFEB3B;
+    box-shadow: 1px 1px 7px black;
+    color: black;
+}
+
+.aboutcontent p{
+    font-size: 1.2rem;
+}
+
+.contactform{
+    padding: 20px;
+}
+.contactform h2{
+   
+    text-align: center;
+    margin-right: 20px;
+    font-weight: bolder;
+    
+}
+input,textarea{
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 250px;
+
+  
+}
+  
+
+input:hover{
+    border-radius: 5px;
+    border-left: 3px solid black ;
+    border-bottom: 3px solid black;
+}
+
+textarea:hover{
+    border-radius: 5px;
+    border-left: 3px solid black ;
+    border-bottom: 3px solid black;
+}
